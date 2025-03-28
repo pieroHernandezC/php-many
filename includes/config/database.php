@@ -12,7 +12,6 @@ function conectarDB() : mysqli {
     $db_database    = 'many'; 
     $db_port        = '21532';
 
-$link = mysqli_connect($db_host,$db_user,$db_pass,$db_database,$db_port);
     $db = mysqli_connect($db_host,$db_user,$db_pass,$db_database,$db_port);
 
     if (!$db) {
